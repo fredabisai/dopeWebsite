@@ -4,7 +4,7 @@ This is website for DOPE programme
 ## Goal
 1. Learning the basics of github
 2. Understanding the basics of frontend web development
-##Instructions
+## Instructions
 1. Accept the invitation in your email
 2. Enter in your github account then clone the project
 3. Open the project
