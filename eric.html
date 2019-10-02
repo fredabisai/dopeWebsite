@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/eric.css">
+    <title>DOPE web</title>
+</head>
+<header>
+        <div class="firstheader">
+
+                <h1>    DEVELOPERS OUTREACH PROGRAME AT ELLIPSIS</h1>
+
+ 
+ </header>
+<body>
+
+                <div class="w3-content w3-display-container">
+                                <img class="mySlides" src="assets/images/one.jpeg" style="width:100%">
+                                <img class="mySlides" src="assets/images/two.jpeg" style="width:100%">
+                                <img class="mySlides" src="assets/images/two.jpeg" style="width:100%">
+                                
+                                <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                                <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+                              </div>
+                              
+                              <script>
+                             var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1}
+  x[slideIndex-1].style.display = "block";
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+
+</script>
+<div class="extras">
+        <div class="about"><p>ABOUT US</p></div>
+        <DIV class="contact"><P>CONTACT US</P> 
+       
+</div>
+</body>
+
+
+
+</html>
